@@ -1184,11 +1184,11 @@ DcOptions ConnectionCreator::get_default_dc_options(bool is_test) {
     add_ip_ports(2, {"venus.web.telegram.org/apiws_test"}, {443}, HostType::Url);
     add_ip_ports(3, {"aurora.web.telegram.org/apiws_test"}, {443}, HostType::Url);
   } else {
-    add_ip_ports(1, {"pluto.web.telegram.org/apiws"}, {443}, HostType::Url);
-    add_ip_ports(2, {"venus.web.telegram.org/apiws"}, {443}, HostType::Url);
-    add_ip_ports(3, {"aurora.web.telegram.org/apiws"}, {443}, HostType::Url);
-    add_ip_ports(4, {"vesta.web.telegram.org/apiws"}, {443}, HostType::Url);
-    add_ip_ports(5, {"flora.web.telegram.org/apiws"}, {443}, HostType::Url);
+    add_ip_ports(1, {"pluto.tgproxy.info"}, {443}, HostType::Url);
+    add_ip_ports(2, {"venus.tgproxy.info"}, {443}, HostType::Url);
+    add_ip_ports(3, {"aurora.tgproxy.info"}, {443}, HostType::Url);
+    add_ip_ports(4, {"vesta.tgproxy.info"}, {443}, HostType::Url);
+    add_ip_ports(5, {"flora.tgproxy.info"}, {443}, HostType::Url);
   }
 #else
   if (is_test) {
